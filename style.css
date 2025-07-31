@@ -79,7 +79,6 @@ page[size="A4"]::before {
   z-index: 1;
 }
 
-
 .button-container {
   position: relative;
 }
@@ -108,15 +107,11 @@ page[size="A4"]::before {
 
 }
 
-
-
-
 @keyframes gradientShift {
   0% {background-position: 0% 50%;}
   50% {background-position: 100% 50%;}
   100% {background-position: 0% 50%;}
 }
-
 
 .dropdown-btn:hover {
   background: rgba(255, 255, 255, 0.85);
@@ -124,10 +119,6 @@ page[size="A4"]::before {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
-
-
-
-
 
 .hover-panel {
   opacity: 0;
